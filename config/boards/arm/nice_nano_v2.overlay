@@ -9,9 +9,7 @@
     input-gpios = <
         &gpio0 2 GPIO_ACTIVE_LOW
         &gpio0 3 GPIO_ACTIVE_LOW
-        &gpio0 4 GPIO_ACTIVE_LOW
     >;
     debounce-press-ms = <5>;
     debounce-release-ms = <5>;
 };
-
